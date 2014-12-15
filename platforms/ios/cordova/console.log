@@ -1,0 +1,48 @@
+2014-12-16 00:04:45.439 mycontacts[6074:81942] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Data/Application/99D57864-937B-4793-8056-7AC122B02D1D/Library/Cookies/Cookies.binarycookies
+2014-12-16 00:04:45.551 mycontacts[6074:81942] Apache Cordova native platform version 3.7.0 is starting.
+2014-12-16 00:04:45.551 mycontacts[6074:81942] Multi-tasking -> Device: YES, App: YES
+2014-12-16 00:04:45.553 mycontacts[6074:81942] Unlimited access to network resources
+2014-12-16 00:04:45.746 mycontacts[6074:81942] [CDVTimer][keyboard] 0.060022ms
+2014-12-16 00:04:45.747 mycontacts[6074:81942] [CDVTimer][TotalPluginStartup] 0.214994ms
+2014-12-16 00:04:45.789 mycontacts[6074:81942] Resetting plugins due to page load.
+2014-12-16 00:04:45.954 mycontacts[6074:81942] Finished load of: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Bundle/Application/BFD031E5-CE05-4B42-A7A7-4111085DAE1E/mycontacts.app/www/index.html
+2014-12-16 00:05:16.482 mycontacts[6246:82925] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Data/Application/BA2906C9-D848-4D3E-8893-C246FF3DE3C6/Library/Cookies/Cookies.binarycookies
+2014-12-16 00:05:16.565 mycontacts[6246:82925] Apache Cordova native platform version 3.7.0 is starting.
+2014-12-16 00:05:16.565 mycontacts[6246:82925] Multi-tasking -> Device: YES, App: YES
+2014-12-16 00:05:16.566 mycontacts[6246:82925] Unlimited access to network resources
+2014-12-16 00:05:16.745 mycontacts[6246:82925] [CDVTimer][keyboard] 0.054955ms
+2014-12-16 00:05:16.745 mycontacts[6246:82925] [CDVTimer][TotalPluginStartup] 0.212014ms
+2014-12-16 00:05:16.785 mycontacts[6246:82925] Resetting plugins due to page load.
+2014-12-16 00:05:16.949 mycontacts[6246:82925] Finished load of: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Bundle/Application/56EF3ABE-8AAF-41A7-8F4C-57B8B8C05710/mycontacts.app/www/index.html
+2014-12-16 00:05:55.847 mycontacts[6415:83576] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Data/Application/2D799E7D-D4E8-42BF-AD7F-DEA8D03B9B87/Library/Cookies/Cookies.binarycookies
+2014-12-16 00:05:55.928 mycontacts[6415:83576] Apache Cordova native platform version 3.7.0 is starting.
+2014-12-16 00:05:55.929 mycontacts[6415:83576] Multi-tasking -> Device: YES, App: YES
+2014-12-16 00:05:55.930 mycontacts[6415:83576] Unlimited access to network resources
+2014-12-16 00:05:56.109 mycontacts[6415:83576] [CDVTimer][keyboard] 0.058055ms
+2014-12-16 00:05:56.109 mycontacts[6415:83576] [CDVTimer][TotalPluginStartup] 0.214994ms
+2014-12-16 00:05:56.148 mycontacts[6415:83576] Resetting plugins due to page load.
+2014-12-16 00:05:56.309 mycontacts[6415:83576] Finished load of: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Bundle/Application/669998CC-0BCD-4620-8BF5-DB3EEC170E6A/mycontacts.app/www/index.html
+2014-12-16 00:06:09.217 mycontacts[6583:83992] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Data/Application/56D6B104-08FC-47EA-A284-7526A8B20DBB/Library/Cookies/Cookies.binarycookies
+2014-12-16 00:06:09.299 mycontacts[6583:83992] Apache Cordova native platform version 3.7.0 is starting.
+2014-12-16 00:06:09.299 mycontacts[6583:83992] Multi-tasking -> Device: YES, App: YES
+2014-12-16 00:06:09.301 mycontacts[6583:83992] Unlimited access to network resources
+2014-12-16 00:06:09.482 mycontacts[6583:83992] [CDVTimer][keyboard] 0.057995ms
+2014-12-16 00:06:09.482 mycontacts[6583:83992] [CDVTimer][TotalPluginStartup] 0.218987ms
+2014-12-16 00:06:09.518 mycontacts[6583:83992] Resetting plugins due to page load.
+2014-12-16 00:06:09.682 mycontacts[6583:83992] Finished load of: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Bundle/Application/409C9F9D-78BA-4B01-A169-E9842039A4F0/mycontacts.app/www/index.html
+2014-12-16 00:08:08.969 mycontacts[6838:85280] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Data/Application/E230F98B-955E-42FB-B125-8515C842A16A/Library/Cookies/Cookies.binarycookies
+2014-12-16 00:08:09.056 mycontacts[6838:85280] Apache Cordova native platform version 3.7.0 is starting.
+2014-12-16 00:08:09.056 mycontacts[6838:85280] Multi-tasking -> Device: YES, App: YES
+2014-12-16 00:08:09.058 mycontacts[6838:85280] Unlimited access to network resources
+2014-12-16 00:08:09.242 mycontacts[6838:85280] [CDVTimer][keyboard] 0.055969ms
+2014-12-16 00:08:09.242 mycontacts[6838:85280] [CDVTimer][TotalPluginStartup] 0.219047ms
+2014-12-16 00:08:09.278 mycontacts[6838:85280] Resetting plugins due to page load.
+2014-12-16 00:08:09.431 mycontacts[6838:85280] Finished load of: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Bundle/Application/C2331EA0-1F65-476E-84C0-AB10F952EA13/mycontacts.app/www/index.html
+2014-12-16 00:09:05.770 mycontacts[7010:85923] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Data/Application/457DDC5D-ED84-4AEB-9D5B-5C6FA436A872/Library/Cookies/Cookies.binarycookies
+2014-12-16 00:09:05.846 mycontacts[7010:85923] Apache Cordova native platform version 3.7.0 is starting.
+2014-12-16 00:09:05.846 mycontacts[7010:85923] Multi-tasking -> Device: YES, App: YES
+2014-12-16 00:09:05.848 mycontacts[7010:85923] Unlimited access to network resources
+2014-12-16 00:09:06.027 mycontacts[7010:85923] [CDVTimer][keyboard] 0.060976ms
+2014-12-16 00:09:06.027 mycontacts[7010:85923] [CDVTimer][TotalPluginStartup] 0.227988ms
+2014-12-16 00:09:06.066 mycontacts[7010:85923] Resetting plugins due to page load.
+2014-12-16 00:09:06.231 mycontacts[7010:85923] Finished load of: file:///Users/lenny/Library/Developer/CoreSimulator/Devices/97D6EAEB-B409-4A8C-89FC-773816E2F424/data/Containers/Bundle/Application/518F6C35-D17E-4BE6-91BA-0BC87BB9DE2D/mycontacts.app/www/index.html

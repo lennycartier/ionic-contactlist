@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- your app's js -->
+   	<script src="js/app.js"></script>
+	<script src="js/phonecontacts.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/services.js"></script>
+
+
+</head>
+	
+  <body ng-app="starter" class="platform-ios platform-cordova platform-webview">
+
+    <ion-pane>
+      <ion-header-bar align-title="center" class="bar-stable">
+		  <button class="button button-icon icon ion-navicon"></button>
+		  <h1 class="title">Contact list</h1>
+		  <button class="button button-clear button-positive" ng-click="doSomething()">Edit</button>
+      </ion-header-bar>
+      <ion-content>
+	  
+	  <div ng-controller="contacts2">
+		  <p>Total number of contacts: {{contacts.length}}</p>
+		  <button ng-click="findContact()">Push</button>
+		  <ion-list>
+		    <ion-item ng-repeat="contact in contacts">
+		      {{contact.name}}
+		    </ion-item>
+		  </ion-list>
+		</div>
+		
+	  </ion-content>
+    </ion-pane>
+	<ion-footer-bar align-title="center" class="bar-stable">
+	   <button class="button button-full button-positive" ng-click="doSomething()">Next</button>
+	</ion-footer-bar> 
+	
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+	
+  </body>
+</html>

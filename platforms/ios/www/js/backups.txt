@@ -1,0 +1,87 @@
+.controller('PhonesCtrl', function($scope) {
+$scope.phones = [
+    { name: 'Nexus S' },
+    { name: 'Motorola XOOM with Wi-Fi' },
+    { name: 'MOTOROLA XOOM'}
+  ];
+});
+
+var services = angular.module('services', []);
+
+services.factory('Contactlist', function() {
+
+	var retrieveContacts = function() {
+		var options = new ContactFindOptions();
+		options.filter = "";	
+		options.multiple = true;
+		var fields = ["displayName", "name"];
+		navigator.contacts.find(fields, onSuccess, onError, options);
+		var contactarray = new Array();
+	    for (var i=0; i<contacts.length; i++) {
+	        contactarray.push('contacts[i].name.formatted');
+		return contactarray;
+	}
+
+};
+
+
+}
+
+angular.module('starter.phonecontacts', [])
+
+.factory('phoneContactList', function() {
+	return {
+		getAllPhoneContacts: function() {
+		var options = new ContactFindOptions();
+		options.filter = "";	
+		options.multiple = true;
+		var fields = ["displayName", "name"];
+		navigator.contacts.find(fields, onSuccess, onError, options);
+		
+		function onSuccess(contacts) {
+			var contactlist = [];
+			for (var i=0; i<contacts.length; i++) {
+				contactlist.push(contacts[i].name.formatted);
+			}
+			return contactlist;
+			alert('execute');
+		};
+
+		function onError(contactError) {
+    		alert('onError!');
+		};
+	}
+}
+});
+
+angular.module('starter.phonecontacts', [])
+
+.factory('phoneContactList', function() {
+	return {
+		getAllPhoneContacts: function() {
+		var options = new ContactFindOptions();
+		options.filter = "";	
+		options.multiple = true;
+		var fields = ["displayName", "name"];
+		navigator.contacts.find(fields, onSuccess, onError, options);
+		
+				
+		function onSuccess(contacts) {
+			var contactlist = [];
+			for (var i=0; i<contacts.length; i++) {
+				contactlist.push(contacts[i].name.formatted);
+			}			
+			/* for (var i=0; i<contactlist.length; i++) {
+				document.write("Contact : " + contactlist[i] + "<br />");
+			} */
+			return contactlist;
+			
+		};
+
+		function onError(contactError) {
+		    alert('onError!');
+		};
+
+	}
+}
+});
