@@ -21,8 +21,9 @@ angular.module('starter.controllers', [])
  
 }])
 
-.controller('contacts2', ['$scope', 'PhoneContactsFactory', function($scope, PhoneContactsFactory) {
-    
+.controller('contacts2', ['$scope', 'PhoneContactsFactory', '$ionicPlatform', function($scope, PhoneContactsFactory, $ionicPlatform) {
+
+$ionicPlatform.ready(function() {  
 	$scope.findContact = function()
     {
         PhoneContactsFactory.find().then(function(contacts)
@@ -35,5 +36,8 @@ angular.module('starter.controllers', [])
             $scope.contacts = $arr;
         });
     }; 
+	$scope.findContact();
+	
+});
 }]);
 
